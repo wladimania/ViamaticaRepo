@@ -1,7 +1,7 @@
 package com.example.login.repository;
 
 import com.example.login.entity.UsuariosEntity;
-import com.example.login.util.UsuarioDetails;
+import com.example.login.util.usuario.UsuarioDetails;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

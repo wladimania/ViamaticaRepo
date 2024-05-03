@@ -1,6 +1,6 @@
-package com.example.login.util;
+package com.example.login.util.sesiones;
 
-import com.example.login.util.sesiones.UsuarioInterfa;
+import com.example.login.util.usuario.UsuarioInterfa;
 
 import java.sql.Date;
 

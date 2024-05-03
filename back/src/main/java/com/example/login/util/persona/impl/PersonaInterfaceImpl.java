@@ -1,4 +1,6 @@
-package com.example.login.util;
+package com.example.login.util.persona.impl;
+
+import com.example.login.util.persona.PersonaInterface;
 
 import java.sql.Date;
 

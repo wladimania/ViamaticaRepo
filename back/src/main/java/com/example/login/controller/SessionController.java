@@ -1,12 +1,10 @@
 package com.example.login.controller;
 
-import com.example.login.entity.SessionsEntity;
 import com.example.login.entity.UsuariosEntity;
 import com.example.login.entity.dto.SessionInfoDTO;
 import com.example.login.services.RolServices;
 import com.example.login.services.SessionsServices;
-import com.example.login.util.CambioContrasenaDTO;
-import lombok.AllArgsConstructor;
+import com.example.login.entity.dto.CambioContrasenaDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

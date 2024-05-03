@@ -3,19 +3,14 @@ package com.example.login.repository;
 import com.example.login.entity.SessionsEntity;
 import com.example.login.entity.dto.SesionsInfoInterface;
 import com.example.login.entity.dto.SessionInfoDTO;
-import com.example.login.util.SessionsInterface;
-import com.example.login.util.sesiones.UsuarioInterfa;
-import org.slf4j.LoggerFactory;
+import com.example.login.util.sesiones.SessionsInterface;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.logging.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
+
 @Repository
 public interface SessionssRepository extends JpaRepository<SessionsEntity,Integer> {
     List<SessionsEntity> findAllByUsuariosIdUsuario(int usuariosIdUsuario);

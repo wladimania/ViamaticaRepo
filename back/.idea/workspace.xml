@@ -4,7 +4,269 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc19a812-97dc-4e1c-964d-4655abd2e8ff" name="Changes" comment="" />
+    <list default="true" id="cc19a812-97dc-4e1c-964d-4655abd2e8ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/.angular/cache/15.1.6/angular-webpack/e037389c4d86c9f19807d16e74cfe5e4e95ac0f3/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/.angular/cache/15.1.6/angular-webpack/e037389c4d86c9f19807d16e74cfe5e4e95ac0f3/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/app/service/usermainten/usermaintenance.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/src/app/service/usermainten/usermaintenance.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/app/views/usermaintenance/usermaintenance.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/src/app/views/usermaintenance/usermaintenance.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/app/views/usermaintenance/usermaintenance.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/src/app/views/usermaintenance/usermaintenance.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/access/asset-access.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/access/logo-orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/amyelsner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/annafali.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/asiyajavayant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/bernardodominic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/elwinsharvill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/ionibowcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/ivanmagalhaes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/onyamalimba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/stephenshaw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/avatar/xuxuefeng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/blocks/hero/hero-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/blocks/logos/hyper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/error/asset-error.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/error/logo-error.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/flag/flag_placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria10s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria11s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria12s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria13s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria14s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria15s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria1s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria2s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria3s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria4s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria5s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria6s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria7s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria8s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/galleria/galleria9s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/Sistema-Integral-de-Salud-SAA.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/enterprise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/free.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/mockup-desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/mockup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/new-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/peak-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/screen-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/landing/startup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/login/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/nature/nature9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/notfound/logo-blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/bamboo-watch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/black-watch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/blue-band.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/blue-t-shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/bracelet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/brown-purse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/chakra-bracelet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/galaxy-earrings.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/game-controller.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/gaming-set.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/gold-phone-case.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/green-earbuds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/green-t-shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/grey-t-shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/headphones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/light-green-t-shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/lime-band.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/mini-speakers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/painted-phone-case.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/pink-band.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/pink-purse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/product-placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/purple-band.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/purple-gemstone-necklace.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/purple-t-shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/shoes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/sneakers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/teal-t-shirt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/yellow-earbuds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/yoga-mat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/images/product/yoga-set.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/styles/badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/styles/code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/styles/flags/flags.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/demo/styles/flags/flags_responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/Sistema-Integral-de-Salud-SAA.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/banner-primeblocks-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/banner-primeblocks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/img_docs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/logofarm-BL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/logofarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/pills.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/arya-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/arya-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/arya-orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/arya-purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/bootstrap4-dark-blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/bootstrap4-dark-purple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/bootstrap4-light-blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/bootstrap4-light-purple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/fluent-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-dark-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-dark-indigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-dark-purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-dark-teal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-light-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-light-indigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-light-purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/lara-light-teal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/luna-amber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/luna-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/luna-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/luna-pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/md-dark-deeppurple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/md-dark-indigo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/md-light-deeppurple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/md-light-indigo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/saga-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/saga-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/saga-orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/saga-purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/tailwind-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/vela-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/vela-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/vela-orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/images/themes/vela-purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_config.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_preloading.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_topbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_utils.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/layout/layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/arya-blue/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/arya-green/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/arya-orange/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/arya-purple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/bootstrap4-dark-blue/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/bootstrap4-dark-purple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/bootstrap4-light-blue/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/bootstrap4-light-purple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/fluent-light/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-dark-blue/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-dark-indigo/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-dark-purple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-dark-teal/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-light-blue/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-light-indigo/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-light-purple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/lara-light-teal/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-deeppurple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-dark-indigo/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-deeppurple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/md-light-indigo/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-deeppurple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-dark-indigo/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-deeppurple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/mdc-light-indigo/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/saga-blue/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/saga-green/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/saga-orange/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/saga-purple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/fonts/Inter-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/tailwind-light/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/vela-blue/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/vela-green/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/vela-orange/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/assets/layout/styles/theme/vela-purple/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/environments/environment.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +312,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/desta/OneDrive/Documentos/PRUEBA JAVA SPRING BOOT – ANGULAR/prueba/back&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/desta/OneDrive/Documentos/PruebaParedes/newprueba/ViamaticaRepo/back&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -115,7 +377,9 @@
       <workItem from="1714723258450" duration="530000" />
       <workItem from="1714723906936" duration="1646000" />
       <workItem from="1714725591929" duration="7129000" />
-      <workItem from="1714754810463" duration="1484000" />
+      <workItem from="1714754810463" duration="2907000" />
+      <workItem from="1714773446617" duration="68000" />
+      <workItem from="1714773839850" duration="282000" />
     </task>
     <servers />
   </component>

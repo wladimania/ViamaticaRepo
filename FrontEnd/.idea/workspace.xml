@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bc3fdc3-7aa6-45e6-b54d-bc67fa21d147" name="Changes" comment="123">
+      <change beforePath="$PROJECT_DIR$/src/app/service/usermainten/usermaintenance.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/service/usermainten/usermaintenance.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/usermaintenance/usermaintenance.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/usermaintenance/usermaintenance.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/usermaintenance/usermaintenance.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/usermaintenance/usermaintenance.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
@@ -29,27 +30,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/desta/OneDrive/Documentos/PRUEBA JAVA SPRING BOOT – ANGULAR/PRUEBA-JAVA-SPRING-BOOTANGULAR/Frontend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\desta\\Downloads\\FrontEnd\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/desta/OneDrive/Documentos/PRUEBA JAVA SPRING BOOT – ANGULAR/PRUEBA-JAVA-SPRING-BOOTANGULAR/Frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\desta\\Downloads\\FrontEnd\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (FrontEnd)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
       <working-directory value="$PROJECT_DIR$" />
@@ -86,7 +84,7 @@
       <workItem from="1714680886370" duration="7312000" />
       <workItem from="1714711085600" duration="9646000" />
       <workItem from="1714723902331" duration="5718000" />
-      <workItem from="1714754804878" duration="1972000" />
+      <workItem from="1714754804878" duration="5059000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1714510889191</created>

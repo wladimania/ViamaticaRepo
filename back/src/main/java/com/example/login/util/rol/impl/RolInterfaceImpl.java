@@ -1,6 +1,7 @@
-package com.example.login.util;
+package com.example.login.util.rol.impl;
 
 import com.example.login.entity.RolEntity;
+import com.example.login.util.rol.RolInterface;
 
 public class RolInterfaceImpl implements RolInterface {
     private Integer idRol;

@@ -21,8 +21,10 @@
     >
         <ng-template pTemplate="caption">
             <div class="flex">
-                <p-fileUpload mode="basic" name="demo"  accept=".csv,.xlsx" styleClass="p-button-success "
-                              (uploadHandler)="onUpload($event)"  [auto]="true" chooseIcon="pi pi-upload" chooseLabel="Carga Masiva"></p-fileUpload>
+               <input type="file" id="uploadHandler" (change)="onFileSelected($event)" style="display: none;">
+                <button type="button" (click)="openFileUploader($event)" class="p-button p-button-success" style="margin-bottom: .5em;">
+                    <span class="pi pi-upload"></span>  Carga Masiva
+                </button>
                 <span class="p-input-icon-left ml-auto">
                     <i class="pi pi-search"></i>
                     <input pInputText type="text" (input)="filtrarTabla($event)" placeholder="Buscar"/>

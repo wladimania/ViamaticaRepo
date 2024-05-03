@@ -1,7 +1,9 @@
-package com.example.login.util;
+package com.example.login.util.rol.impl;
 
-import com.example.login.entity.RolUsuariosEntity;
 import com.example.login.entity.RolEntity;
+import com.example.login.util.rol.RolInterface;
+import com.example.login.util.rol.RolUsuariosInterface;
+import com.example.login.util.rol.impl.RolInterfaceImpl;
 
 public class RolUsuariosInterfaceImpl implements RolUsuariosInterface {
     private Integer rolIdRol;

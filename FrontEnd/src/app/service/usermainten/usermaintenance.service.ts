@@ -18,4 +18,8 @@ export class UsermaintenanceService {
     createUser(usuario: UserDetails): Observable<any> {
         return this.http.post<any>(this.crearurl + '/crear', usuario);
     }
+    createUsers(usuarios: UserDetails[]): Observable<any> {
+        return this.http.post<any>(`${this.crearurl}/crear-multiples`, usuarios);
+    }
+
 }

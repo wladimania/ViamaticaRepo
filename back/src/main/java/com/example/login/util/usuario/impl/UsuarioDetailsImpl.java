@@ -1,4 +1,8 @@
-package com.example.login.util;
+package com.example.login.util.usuario.impl;
+
+import com.example.login.util.persona.PersonaInterface;
+import com.example.login.util.rol.RolUsuariosInterface;
+import com.example.login.util.usuario.UsuarioDetails;
 
 import java.util.List;
 

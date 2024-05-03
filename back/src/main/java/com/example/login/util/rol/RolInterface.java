@@ -1,4 +1,4 @@
-package com.example.login.util;
+package com.example.login.util.rol;
 
 public interface RolInterface {
     Integer getIdRol();

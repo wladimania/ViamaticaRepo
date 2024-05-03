@@ -4,11 +4,14 @@ import com.example.login.entity.PersonaEntity;
 import com.example.login.entity.UsuariosEntity;
 import com.example.login.repository.PersonaRepository;
 import com.example.login.repository.UsuariosRepository;
-import com.example.login.util.*;
-import lombok.AllArgsConstructor;
+import com.example.login.util.persona.PersonaInterface;
+import com.example.login.util.persona.impl.PersonaInterfaceImpl;
+import com.example.login.util.rol.RolUsuariosInterface;
+import com.example.login.util.rol.impl.RolUsuariosInterfaceImpl;
+import com.example.login.util.usuario.UsuarioDetails;
+import com.example.login.util.usuario.impl.UsuarioDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.login.entity.RolUsuariosEntity;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -38,6 +41,24 @@ public class UsuariosServices {
         return usuariosRepository.save(usuario);
     }
 
+    public void createUsers(List<UsuariosEntity> usuarios) {
+        for (UsuariosEntity usuario : usuarios) {
+            validateUserName(usuario.getUserName());
+            validatePassword(usuario.getPassword());
+            usuario.setIntentoFallido(0);
+            usuario.setStatus("Activo");
+            String correo = usuario.generarCorreo().trim();
+            usuario.setMail(correo);
+            validateCorreo(usuario);
+            PersonaEntity nuevaPersona = usuario.getPersonaByPersonaIdPersona2();
+            validateIdentification(nuevaPersona.getIdentificacion());
+            if (nuevaPersona != null) {
+                nuevaPersona = personaRepository.save(nuevaPersona);
+                usuario.setPersonaByPersonaIdPersona2(nuevaPersona);
+            }
+            usuariosRepository.save(usuario);
+        }
+    }
     public boolean existePersona(String identificacion){
      return personaRepository.existsByIdentificacion(identificacion);
     }

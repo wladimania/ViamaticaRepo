@@ -1,4 +1,4 @@
-package com.example.login.util;
+package com.example.login.entity.dto;
 
 public class CambioContrasenaDTO {
     private String mail;

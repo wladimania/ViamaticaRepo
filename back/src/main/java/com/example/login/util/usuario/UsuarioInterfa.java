@@ -1,6 +1,6 @@
-package com.example.login.util.sesiones;
+package com.example.login.util.usuario;
 
-import com.example.login.util.PersonaInterface;
+import com.example.login.util.persona.PersonaInterface;
 
 public interface UsuarioInterfa {
     Integer getIdUsuario();

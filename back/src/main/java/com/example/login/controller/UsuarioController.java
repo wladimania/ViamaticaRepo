@@ -2,8 +2,7 @@ package com.example.login.controller;
 
 import com.example.login.entity.UsuariosEntity;
 import com.example.login.services.UsuariosServices;
-import com.example.login.util.UsuarioDetails;
-import lombok.AllArgsConstructor;
+import com.example.login.util.usuario.UsuarioDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -29,6 +28,16 @@ public class UsuarioController {
             return new ResponseEntity<>("Error al crear el usuario: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+    @PostMapping("/crear-multiples")
+    public ResponseEntity<String> crearUsuarios(@Valid @RequestBody List<UsuariosEntity> usuarios) {
+        try {
+            usuariosServices.createUsers(usuarios);
+            return new ResponseEntity<>("Usuarios creados exitosamente", HttpStatus.CREATED);
+        } catch (Exception e) {
+            return new ResponseEntity<>("Error al crear los usuarios: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
     @GetMapping("/valida")
     public ResponseEntity<String> validausuario(@QueryParam("identificacion")String identificacion){
         boolean validaruser= usuariosServices.existePersona(identificacion);

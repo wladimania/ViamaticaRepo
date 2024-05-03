@@ -15,6 +15,7 @@ export class UsermaintenanceComponent implements OnInit {
     idUsuario: number | null = null;
     usersList: UserDetails[] = [];
     loading: boolean = false;
+    newUsers: UserDetails[] = [];
 
     @ViewChild("dt2") public dt2: any;
 
@@ -86,16 +87,35 @@ export class UsermaintenanceComponent implements OnInit {
                     }
                 } as UserDetails;
 
-                this.createUser(usuario);
+                this.newUsers.push(usuario);
             });
+            this.createUsers();
         };
         reader.readAsArrayBuffer(file);
     }
+
+    createUsers(): void {
+        this.usermaintenanceService.createUsers(this.newUsers).subscribe(
+            response => {
+                console.log('Usuarios creados exitosamente:', response);
+
+                console.log(this.newUsers);
+
+                this.newUsers = [];
+            },
+            error => {
+                console.error('Error al crear los usuarios:', error);
+            }
+        );
+    }
+
+
+
     createUser(usuario: UserDetails): void {
         this.usermaintenanceService.createUser(usuario).subscribe(
             response => {
                 console.log('Usuario creado exitosamente:', response);
-                // Agrega esta línea para imprimir el usuario creado en la consola
+              
                 console.log(usuario);
             },
             error => {
@@ -110,4 +130,17 @@ export class UsermaintenanceComponent implements OnInit {
             this.handleFileInput(file);
         }
     }
+    openFileUploader(event: any): void {
+        const fileUploader = document.getElementById('uploadHandler');
+        if (fileUploader) {
+            fileUploader.click();
+        }
+    }
+    onFileSelected(event: any): void {
+        const file = event.target.files[0];
+        if (file) {
+            this.handleFileInput(file);
+        }
+    }
+
 }
