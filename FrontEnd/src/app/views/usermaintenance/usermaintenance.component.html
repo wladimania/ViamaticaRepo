@@ -1,0 +1,78 @@
+<!--<p-toast></p-toast>-->
+<p-panel header="Lista de Usuarios">
+
+
+    <p-table
+        #dt2
+        [value]="usersList"
+        sortField="userName" sortMode="single"
+        dataKey="idUsuario"
+        [rows]="10"
+        [showCurrentPageReport]="true"
+        [rowsPerPageOptions]="[10, 25, 50]"
+        [loading]="loading"
+        [paginator]="true"
+        currentPageReportTemplate="Mostrando de {first} a {last} de {totalRecords} registros"
+        [globalFilterFields]="['userName', 'mail', 'status',
+            'personaByPersonaIdPersona2.nombres',
+            'personaByPersonaIdPersona2.apellido',
+            'personaByPersonaIdPersona2.identificacion']"
+        [tableStyle]="{ 'min-width': '75rem' }"
+    >
+        <ng-template pTemplate="caption">
+            <div class="flex">
+                <p-fileUpload mode="basic" name="demo"  accept=".csv,.xlsx" styleClass="p-button-success "
+                              (uploadHandler)="onUpload($event)"  [auto]="true" chooseIcon="pi pi-upload" chooseLabel="Carga Masiva"></p-fileUpload>
+                <span class="p-input-icon-left ml-auto">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" (input)="filtrarTabla($event)" placeholder="Buscar"/>
+                </span>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="header">
+            <tr>
+                <th pSortableColumn="userName">Nombre de Usuario
+                    <p-sortIcon field="userName"></p-sortIcon>
+                </th>
+                <th pSortableColumn="mail">Correo
+                    <p-sortIcon field="mail"></p-sortIcon>
+                </th>
+                <th pSortableColumn="status">Estado
+                    <p-sortIcon field="status"></p-sortIcon>
+                </th>
+                <th pSortableColumn="intentoFallido">Intentos Fallidos
+                    <p-sortIcon field="intentoFallido"></p-sortIcon>
+                </th>
+                <th [colSpan]="4" pSortableColumn="personaByPersonaIdPersona2.apellido">Información del Usuario
+                    <p-sortIcon field="personaByPersonaIdPersona2.apellido"></p-sortIcon>
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-user>
+            <tr>
+                <td>{{user.userName}}</td>
+                <td>{{user.mail}}</td>
+                <td>
+                    <p-tag [value]="user.status" [severity]="user.status === 'Activo' ? 'success' : 'warning'"></p-tag>
+                </td>
+                <td>
+                    <p-tag [value]="user.intentoFallido" severity="danger"></p-tag>
+                </td>
+                <td>
+                    <div>
+                        <p><b>Identificación: </b>{{user.personaByPersonaIdPersona2?.identificacion}}</p>
+                        <p>
+                            <b>Nombres: </b>{{user.personaByPersonaIdPersona2?.apellido + ' ' + user.personaByPersonaIdPersona2?.nombres}}
+                        </p>
+                        <p><b>Fecha de Nacimiento: </b>{{user.personaByPersonaIdPersona2?.fechaNacimiento}}</p>
+                    </div>
+                </td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="emptymessage">
+            <tr>
+                <td colspan="5">No se han cargado Usuarios.</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</p-panel>

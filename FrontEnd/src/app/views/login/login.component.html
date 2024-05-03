@@ -1,0 +1,92 @@
+<p-toast position="bottom-right"></p-toast>
+<div class="surface-ground flex align-items-center justify-content-center min-h-screen min-w-screen overflow-hidden">
+    <div class="flex flex-column align-items-center justify-content-center">
+        <div
+            style="border-radius:56px; padding:0.3rem; background: linear-gradient(180deg, var(--primary-color) 10%, rgba(33, 150, 243, 0) 30%);">
+            <div class="w-full surface-card py-8 px-5 sm:px-8" style="border-radius:53px">
+                <div class="text-center mb-5">
+<!--                    <img src="assets/layout/images/logofarm-BL.png" alt="Image" height="100" class="mb-3">-->
+                    <div class="text-900 text-3xl font-medium mb-3">Bienvenido</div>
+                    <span class="text-600 font-medium">Inicia Sesión para continuar</span>
+                </div>
+
+                <div>
+                    <form [formGroup]="loginForm" (ngSubmit)="onLogin()" class="login-form">
+                        <h2 class="text-center">Iniciar Sesión</h2>
+
+                        <!-- Usuario -->
+                        <!--                        <div class="form-group">-->
+                        <div class="field col-12 sm:col-12 md:col-12 xl:col-12">
+                            <label for="userName" class="block text-900 text-xl font-medium mb-2">Nombre de Usuario</label>
+
+                            <input type="text" class="w-full md:w-30rem mb-5" style="padding:1rem" id="userName"
+                                   formControlName="userName" placeholder="Ingresa tu nombre de usuario" pInputText
+                            />
+                            <!-- Errores para userName -->
+                            <div *ngIf="loginForm.get('userName')?.touched">
+                                <small class="text-danger" *ngIf="loginForm.get('userName')?.errors?.['required']">
+                                    El nombre de usuario es obligatorio.<br/>
+                                </small>
+                                <small class="text-danger" *ngIf="loginForm.get('userName')?.errors?.['minlength']">
+                                    El nombre de usuario debe tener al menos 8 caracteres.<br/>
+                                </small>
+                                <small class="text-danger" *ngIf="loginForm.get('userName')?.errors?.['maxlength']">
+                                    El nombre de usuario no puede tener más de 20 caracteres.<br/>
+                                </small>
+                                <small class="text-danger" *ngIf="loginForm.get('userName')?.errors?.['pattern']">
+                                    El nombre de usuario debe contener al menos una letra mayúscula y un número.<br/>
+                                </small>
+                            </div>
+                            <!--                        </div>-->
+
+                            <!--                        &lt;!&ndash; Contraseña &ndash;&gt;-->
+                            <!--                        <div class="form-group position-relative">-->
+                            <label for="password" class="block text-900 text-xl font-medium mb-2">Contraseña</label>
+
+                            <input  id="password"
+                                   formControlName="password" placeholder="Ingresa tu contraseña" pInputText
+                                   class="w-full md:w-30rem mb-5" style="padding:1rem">
+                            <!-- Errores para password -->
+                            <div *ngIf="loginForm.get('password')?.touched">
+                                <small class="text-danger" *ngIf="loginForm.get('password')?.errors?.['required']">
+                                    La contraseña es obligatoria.<br/>
+                                </small>
+                                <small class="text-danger" *ngIf="loginForm.get('password')?.errors?.['minlength']">
+                                    La contraseña debe tener al menos 8 caracteres.<br/>
+                                </small>
+                                <small class="text-danger" *ngIf="loginForm.get('password')?.errors?.['pattern']">
+                                    La contraseña debe contener al menos una letra mayúscula y un carácter especial.<br/>
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="field col-12 sm:col-12 md:col-12 xl:col-12">
+                            <button pButton pRipple label="Acceder" class="w-full p-3 text-xl" type="submit"  [disabled]="!loginForm.valid"></button>
+                        </div>
+
+
+                        <div class="forgot-link text-right">
+                            <a [routerLink]="'/recover-password'">¿Olvidaste tu contraseña?</a>
+                        </div>
+                    </form>
+
+                    <!--                    <div class="field col-12 sm:col-12 md:col-12 xl:col-12">-->
+                    <!--                        <label for="email1" class="block text-900 text-xl font-medium mb-2">Usuario</label>-->
+                    <!--                        <input id="email1" type="text" placeholder="Indique el Usuario" pInputText-->
+                    <!--                               class="w-full md:w-30rem mb-5" style="padding:1rem"-->
+                    <!--                               [(ngModel)]="loginObject.usuario">-->
+                    <!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;                    <div class="field col-12 sm:col-12 md:col-12 xl:col-12">&ndash;&gt;-->
+                    <!--                        <label for="password1" class="block text-900 font-medium text-xl mb-2">Contraseña</label>-->
+                    <!--                        <input id="password1" type="password" placeholder="Indique la contraseña" pInputText-->
+                    <!--                               class="w-full md:w-30rem mb-5" style="padding:1rem"-->
+                    <!--                               [(ngModel)]="loginObject.clave">-->
+                    <!--                    </div>-->
+                    <!--                    <div class="field col-12 sm:col-12 md:col-12 xl:col-12">-->
+                    <!--                        <button pButton pRipple label="Acceder" class="w-full p-3 text-xl" (click)="login2()" ></button>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
